@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style_task6.css">
+		<title>Task №6 (lesson 2)</title>
+	</head>
+	<body>
+		<h1>Задача №6</h1>
+		<p>З клавіатури вводяться вартість товару та кількість одиниць 3 товарів. Обчислити вартість кожного товару окремо та загальну вартість. Вивести чек (як у супермаркеті) використовуючи елементи розмітки.</p>
+            <script>
+                //1. Введення необхідних даних
+                //Перший товар
+                let costOfGoodsOne = parseFloat(prompt('Вкажіть вартість першого товару:', '0'))
+                let numberOfGoodsOne = parseFloat(prompt('Вкажіть кількість першого товару:', '0'))
+                //Другий товар
+                let costOfGoodsTwo = parseFloat(prompt('Вкажіть вартість другого товару:', '0'))
+                let numberOfGoodsTwo = parseFloat(prompt('Вкажіть кількість другого товару:', '0'))
+                //Третій товар
+                let costOfGoodsThree = parseFloat(prompt('Вкажіть вартість третього товару:', '0'))
+                let numberOfGoodsThree = parseFloat(prompt('Вкажіть кількість третього товару:', '0'))
+
+                //2. Обчислення результату
+                let sumOfGoodsOne = costOfGoodsOne * numberOfGoodsOne
+                let sumOfGoodsTwo = costOfGoodsTwo * numberOfGoodsTwo
+                let sumOfGoodsThree = costOfGoodsThree * numberOfGoodsThree
+                let totalPrice = sumOfGoodsOne + sumOfGoodsTwo + sumOfGoodsThree
+
+                //3. Виведення результату
+                document.write(`
+                <table class="task__table">
+                    <tr>
+                        <td>Вітаємо вас у нашій кав'ярні</td>
+                    </tr>
+                    <tr>
+                        <td>Товар</td>
+                        <td>Кількість</td>
+                        <td>Вартість</td>
+                    </tr>
+                    <tr>
+                        <td>Перший товар</td>
+                        <td>${numberOfGoodsOne}</td>
+                        <td>${sumOfGoodsOne}</td>
+                    </tr>
+                    <tr>
+                        <td>Другий товар</td>
+                        <td>${numberOfGoodsTwo}</td>
+                        <td>${sumOfGoodsTwo}</td>
+                    </tr>
+                    <tr>
+                        <td>Третій товар</td>
+                        <td>${numberOfGoodsThree}</td>
+                        <td>${sumOfGoodsThree}</td>
+                    </tr>
+                    <tr>
+                        <td>Всьго до сплати</td>
+                        <td>${totalPrice}</td>
+                    </tr>
+                </table>
+                `)
+            </script>
+	</body>
+</html>

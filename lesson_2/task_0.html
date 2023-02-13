@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Task №0 (lesson 2)</title>
+	</head>
+	<body>
+		<h1>Задача №0</h1>
+		<p>Обчислити значення виразів</p>
+        <img src="img/01.jpg" alt="Image"><br>
+		<script>
+			//1. Вхідні дані
+            const a = parseFloat(prompt('Введіть значення a:', '0'));
+            const b = parseFloat(prompt('Введіть значення b:', '0'));
+            const c = parseFloat(prompt('Введіть значення c:', '0'));
+
+            //2. Обчислення
+            const S1 = a + 12 + b;
+            const S2 = Math.sqrt((a + b)/(2 * a));
+            const S3 = Math.cbrt((a + b) *c);
+            const S4 = Math.sin(a / -b);
+
+            //3. Виведення результату
+            document.write(`
+            S1 = ${S1} <br>
+            S2 = ${S2} <br>
+            S3 = ${S3} <br>
+            S4 = ${S4} <br>`)
+		</script>
+	</body>
+</html>
