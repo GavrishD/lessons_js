@@ -15,15 +15,16 @@
 
 			//2. Обчислення результату
 			let hour = Math.floor(proposedSeconds / 3600)
-            		let minute = Math.floor(proposedSeconds / 60)
+            let minute = Math.floor(proposedSeconds / 60)
 			let seconds = Math.floor(proposedSeconds % 60)
 
 			//3. Виведення результату
 			document.write(`
-			    Секунди -> ${proposedSeconds} <br>
-			    Значення у годинах = ${hour} <br>
-			    Значення у хвилинах = ${minute}<br>
-                        `)
+            Секунди -> ${proposedSeconds} <br>
+            Значення у годинах = ${hour} <br>
+            Значення у хвилинах = ${minute}<br>
+			Значення у секундах = ${seconds}
+            `)
 		</script>
 	</body>
 </html>
