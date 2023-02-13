@@ -14,15 +14,16 @@
 			let proposedSeconds = parseFloat(prompt('Вкажіть кількість секунд:', '0'))
 
 			//2. Обчислення результату
-			let hour = proposedSeconds / 3600
-            let minute = proposedSeconds / 60
+			let hour = Math.floor(proposedSeconds / 3600)
+            		let minute = Math.floor(proposedSeconds / 60)
+			let seconds = Math.floor(proposedSeconds % 60)
 
 			//3. Виведення результату
 			document.write(`
-            Секундах -> ${proposedSeconds} <br>
-            Значення у годинах = ${hour} <br>
-            Значення у хвилинах = ${minute}<br>
-            `)
+			    Секунди -> ${proposedSeconds} <br>
+			    Значення у годинах = ${hour} <br>
+			    Значення у хвилинах = ${minute}<br>
+                        `)
 		</script>
 	</body>
 </html>
