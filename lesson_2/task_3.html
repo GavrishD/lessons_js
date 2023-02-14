@@ -13,11 +13,11 @@
 			//1. Введення необхідних даних
 			let priceOfOneProduct = parseFloat(prompt('Введіть вартість одиниці товару', '0'))
 			let productQuantity = parseInt(prompt('Введіть кількість товару', '0'))
-			const TAX_PERCENT = 0.05
+			const TAX_PRODUCT = 0.05
 
 			//2. Обчислення результату
 			let totalPrice = priceOfOneProduct * productQuantity
-			let productTax = totalPrice * TAX_PERCENT
+			let productTax = totalPrice * TAX_PRODUCT
 
 			//3. Виведення результату
 			document.write(`
