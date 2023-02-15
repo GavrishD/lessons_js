@@ -1,0 +1,64 @@
+@import url("reset.css");
+/* Sansation fonts */
+@font-face {
+    font-family: 'Sansation';
+    src: url("../fonts/sansation/SansationLight.woff2") format("woff2"), url("../fonts/sansation/SansationLight.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sansation';
+    src: url("../fonts/sansation/SansationRegular.woff2") format("woff2"), url("../fonts/sansation/SansationRegular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sansation';
+    src: url("../fonts/sansation/SansationBold.woff2") format("woff2"), url("../fonts/sansation/SansationBold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body{
+    font-family: 'Sansation', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #2E2E2E;
+    background-color: #b8d2ec;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+h1:hover, h2:hover {
+    color: #FF2970;
+}
+[class*="__container"]{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.task__text {}
+
+li {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #7fbaf5;
+    padding: 15px;
+}
