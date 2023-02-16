@@ -16,6 +16,6 @@ if (numOfCandiesOne > numOfCandiesTwo)
 document.write(`Кількість цукерок більше у ${nameFirstChild} - ${numOfCandiesOne}шт`)
 else if (numOfCandiesTwo > numOfCandiesOne)
 document.write(`Кількість цукерок більше у ${nameSecondChild} - ${numOfCandiesTwo}шт`)
-if (numOfCandiesOne === numOfCandiesTwo)
+else (numOfCandiesOne === numOfCandiesTwo)
 document.write(`Кількість цукерок у дітей, ${nameFirstChild} і ${nameSecondChild}, однакова`)
 
