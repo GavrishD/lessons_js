@@ -25,5 +25,5 @@ else if (personAge <= studentAge)
 document.write(`Ви студент, ваш вік ${personAge}`)
 else if (personAge <= workerAge)
 document.write(`Ви працівник, ваш вік ${personAge}`)
-else if(personAge >= pensionerAge)
+else
 document.write(`Ви пенсіонер, ваш вік ${personAge}`)
