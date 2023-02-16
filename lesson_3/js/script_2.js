@@ -12,7 +12,12 @@ let amountOfMoney = parseInt(prompt('Введіть кількість ваши�
 let restOfMoney = productPrice - amountOfMoney
 
 //3. Виведення результату
+if (amountOfMoney >= 0 && productPrice >= 0) {
 if (amountOfMoney < productPrice)
 document.write(`Відмова у купівлі, недостатньо коштів. Ціна товару ${productPrice}грв, а у вас ${amountOfMoney}грв. До зустрічі наступного разу!`)
-else if(amountOfMoney > productPrice)
-document.write(`Ура! У вас залишилися гроші (${restOfMoney}грв). Ціна товару ${productPrice}грв. Пропонуємо вам придбати лотерею за 4 гривні :)`)
+else {
+document.write(`Дякуємо за покупку`)
+if (amountOfMoney - productPrice >= 4)
+document.write(`Ура! У вас залишилися гроші ${restOfMoney}грв. Ціна товару ${productPrice}грв. Пропонуємо вам придбати лотерею за 4 гривні :)`)
+}
+}
