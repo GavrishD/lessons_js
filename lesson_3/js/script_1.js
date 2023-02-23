@@ -11,7 +11,7 @@ let numOfCandiesOne = parseInt(prompt('Кількість цукерок у пе
 let numOfCandiesTwo = parseInt(prompt('Кількість цукерок у другої дитини', '0'))
 
 
-//2. Обчислення и виведення результату
+//2. Обчислення і виведення результату
 if (numOfCandiesOne > numOfCandiesTwo)
 document.write(`Кількість цукерок більше у ${nameFirstChild} - ${numOfCandiesOne}шт`)
 else if (numOfCandiesTwo > numOfCandiesOne)
