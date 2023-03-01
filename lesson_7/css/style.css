@@ -27,8 +27,8 @@ body{
     font-family: 'Sansation', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #52A44E;
-    background-color: #0E1116;
+    color: #414042;
+    background-color: #ffffff;
 }
 p {
     font-weight: 500;
@@ -41,7 +41,7 @@ h1, h2 {
     transition: all 0.3s ease 0s;
 }
 h1:hover, h2:hover {
-    color: #65d85c;
+    color: #414042;
     text-decoration: underline;
 }
 [class*="__container"]{
@@ -59,7 +59,6 @@ h1:hover, h2:hover {
 li {
     margin-bottom: 15px;
     border-radius: 10px;
-    background-color: #222730;
+    background-color: #FFDFDC;
     padding: 15px;
-    box-shadow: 5px 4px 10px rgba(62, 172, 80, 0.6);
 }
