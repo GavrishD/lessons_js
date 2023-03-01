@@ -27,8 +27,8 @@ body{
     font-family: 'Sansation', sans-serif;
     font-size: 20px;
     font-weight: 300;
-    color: #52A44E;
-    background-color: #0E1116;
+    color: #414042;
+    background-color: #ffffff;
 }
 p {
     font-weight: 500;
@@ -66,9 +66,8 @@ a {
 }
 .task__text {
     border-radius: 10px;
-    background-color: #222730;
+    background-color: #FFDFDC;
     padding: 15px;
-    box-shadow: 5px 4px 10px rgba(62, 172, 80, 0.6);
 }
 
 li {
@@ -84,18 +83,15 @@ input {
     border-radius: 5px;
     background-color: #515151;
 }
-input:hover {
-    border: 1.5px solid #52A44E;
-}
 
 table {
     display: inline-flex;
-    border: 1px solid #52A44E;
+    border: 1px solid #414042;
     padding: 5px;
 }
 table tr td {
     display: table-cell;
-    border: 1px solid #52A44E;
+    border: 1px solid #414042;
     padding: 5px;
     text-align: center;
 }
@@ -104,7 +100,3 @@ img {
     max-width: 400px;
     max-height: 400px;
 }
-
-
-
-
