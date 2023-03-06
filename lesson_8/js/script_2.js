@@ -12,8 +12,8 @@ let numberVisitorsWeek = getNumberVisitors(7)
 
 // Мінімальна кількість відвідувачів
 function getMinNumberVisitors(genNumberVisitorsWeek){
-    let minVisitors = genNumberVisitorsWeek[1]
-    for (let i = 0; i < genNumberVisitorsWeek.length; i++) {
+    let minVisitors = genNumberVisitorsWeek[0]
+    for (let i = 1; i < genNumberVisitorsWeek.length; i++) {
         if (genNumberVisitorsWeek[i] < minVisitors) minVisitors = genNumberVisitorsWeek[i]
     }
     return minVisitors
