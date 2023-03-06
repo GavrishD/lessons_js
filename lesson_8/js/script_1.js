@@ -21,7 +21,7 @@ function getAverageScore(userList) {
   for (let i = 0; i < userList.length; i++) {
     totalSumScore += userList[i]
   }
-  return totalSumScore / numberSubjectsUser
+  return totalSumScore / userList.length
 }
 const averageScore = getAverageScore(userList)
 
