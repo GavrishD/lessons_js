@@ -23,8 +23,8 @@ let minNumberVisitors = getMinNumberVisitors(numberVisitorsWeek)
 
 // Максимальна кількість відвідувачів
 function getMaxNumberVisitors(genNumberVisitorsWeek) {
-    let maxVisitors = genNumberVisitorsWeek[1]
-    for (let i = 0; i < genNumberVisitorsWeek.length; i++) {
+    let maxVisitors = genNumberVisitorsWeek[0]
+    for (let i = 1; i < genNumberVisitorsWeek.length; i++) {
         if (genNumberVisitorsWeek[i] > maxVisitors) maxVisitors = genNumberVisitorsWeek[i]
     }
     return maxVisitors
