@@ -36,7 +36,7 @@ let maxNumberVisitors = getMaxNumberVisitors(numberVisitorsWeek);
 function getDays(genNumberVisitorsWeek, numberVisitors) {
     let scoreDay = []
     for (let k = 1; k <= 7; k++) {
-        if (genNumberVisitorsWeek[k - 1] === numberVisitors) scoreDay += [k]
+        if (genNumberVisitorsWeek[k - 1] === numberVisitors) scoreDay += push[k]
     }
     return scoreDay
 }
@@ -48,7 +48,7 @@ let dayMaxVisitors = getDays(numberVisitorsWeek, maxNumberVisitors);
 function getDaysVisitors20(genNumberVisitorsWeek, numberVisitors) {
     let scoreDays20 = []
     for (let k = 1; k <= 7; k++) {
-        if (genNumberVisitorsWeek[k -1] < numberVisitors) scoreDays20 += [k]
+        if (genNumberVisitorsWeek[k -1] < numberVisitors) scoreDays20 += push[k]
     }
     return scoreDays20
 }
