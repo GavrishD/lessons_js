@@ -37,4 +37,4 @@ const lengthFiveBinarySearch = getLengthFiveBinarySearch(sortName, 5)
 document.write(`Відсортованний масив: ${sortName.join(", ")}`)
 
 if(lengthFiveBinarySearch !== -1) document.write(`<br>Імʼя довжиною 5 символів існує: ${lengthFiveBinarySearch}`);
-else document.write(`Імʼя довжиною 5 символів не існує`)
+else document.write(`<br>Імʼя довжиною 5 символів не існує`)
