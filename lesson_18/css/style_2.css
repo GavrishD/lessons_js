@@ -1,0 +1,90 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #414042;
+    background-color: #f9fcfe;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+span {
+    font-weight: 700;
+}
+.body-block {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+}
+.task__text {
+    border-radius: 10px;
+    background-color: #D7E1E9;
+    padding: 15px;
+}
+
+li {
+    margin-bottom: 7px;
+}
+ul {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #515151;
+}
+button {
+    text-align: center;
+    padding: 5px 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #414042;
+    font-size: 18px;
+    transition: all 0.4s ease 0s;
+}
+button:hover {
+    background-color: #242323;
+    color: #fff;
+    border: none;
+}
+.addition, .subtraction, .multiplication {
+    margin: 0 5px 0 0;
+}
+input {
+    background-color: #fff;
+    padding-left: 5px;
+    border: 0.3px solid #414042;
+    transition: all 0.1s ease 0s;
+}
+input:hover {
+    border: 0.5px solid #3d69f9;
+    background-color: #dff1ff;
+}
+label {
+    display: block;
+}
+div:not(:last-child) {
+    margin-bottom: 8px;
+}

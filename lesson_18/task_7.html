@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style_4.css">
+		<title>Task №7 (lesson 18)</title>
+	</head>
+	<body>
+		<div class="task">
+            <div class="task__container">
+                <div class="task__text">
+                    <h1>Задача №7</h1>
+                    <p>
+						Подорож складається з 3 етапів. На кожному етапі користувач може вибрати один з видів транспорту (авто, автобус, літак - випадаючий список), харчування (сніданок, обід, вечеря – checkbоx) та одного з 3-х гідів(використати  - radio buttons). Ціни визначте самі. Підрахувати загальну вартість.
+					</p>
+                </div>
+                <div class="travel-price">
+                    <h3>Вид транспорту</h3>
+                    <label>
+                        <select class="transp" id="transport">
+                            <option value="150">авто</option>
+                            <option value="200">автобус</option>
+                            <option value="300">літак</option>
+                        </select>
+                    </label>
+                    <section class="food">
+                        <h3>Харчування</h3>
+                        <div class="food-choice">
+                            <label>
+                                <input class="f-choice" type="checkbox" value="60">
+                                Сніданок
+                            </label>
+                            <label>
+                                <input class="f-choice" type="checkbox" value="70">
+                                Обід
+                            </label>
+                            <label>
+                                <input class="f-choice" type="checkbox" value="80">
+                                Вечеря
+                            </label>
+                        </div>
+                    </section>
+                    <section class="choice-block">
+                        <h3>Гіди</h3>
+                        <div class="choice-guide">
+                            <div class="choice">
+                                <input class="choice-radio" type="radio" id="first-guide" name="guide" value="50" checked>
+                                <label class="name" for="first-guide">Олександр</label>
+                            </div>
+                            <div class="choice">
+                                <input class="choice-radio" type="radio" id="second-guide" name="guide" value="80">
+                                <label class="name" for="second-guide">Іван</label>
+                            </div>
+                            <div class="choice">
+                                <input class="choice-radio" type="radio" id="third-guide" name="guide" value="90">
+                                <label class="name" for="third-guide">Олексій</label>
+                            </div>
+                        </div>
+                    </section>
+                    <button class="price-total">get totel price</button>
+                    <p>
+                        Загальна вартість подорожі ->
+                        <span class="amount"></span>
+                    </p>
+                </div>
+                <script src="js/script_7.js"></script>
+            </div>
+        </div>
+	</body>
+</html>
