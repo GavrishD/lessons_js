@@ -1,0 +1,32 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap'); */
+
+/* ----------------------------------------General---------------------------------------- */
+
+
+body{
+	margin: 0;
+	line-height: 1;
+}
+.task{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.star{
+	position: absolute;
+}

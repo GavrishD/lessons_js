@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #414042;
+    background-color: #f9fcfe;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+h3 {
+    font-weight: 500;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+span {
+    font-weight: 700;
+}
+.task-container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+}
+.task-text {
+    border-radius: 10px;
+    background-color: #D7E1E9;
+    padding: 15px;
+}
+li {
+    margin-bottom: 7px;
+}
+ul {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+.task-sportsman {
+    display: flex;
+    gap: 20px;
+}
+.total-items {}
+.total-list-block {}
+.list-block {
+    border: 1px solid #222222;
+    width: 250px;
+    min-height: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+.competition-items {}
+.competititon-list-block {}
+.arrow {
+    max-width: 40px;
+    cursor: pointer;
+}
+.athlet {
+    padding: 5px;
+    border: 0.8px solid #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

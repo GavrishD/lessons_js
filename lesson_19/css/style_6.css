@@ -1,0 +1,35 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+	margin: 0;
+    background-color: rgb(242, 242, 242);
+}
+.task {
+	position: relative;
+	height: 100vh;
+}
+.task-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #3A4F47;
+    max-width: 230px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    border: 0.5px solid #000;
+    color: #fff;
+}
+.tank {
+	position: absolute;
+	width: 50px;
+}
