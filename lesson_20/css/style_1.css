@@ -1,0 +1,116 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+/* Roboto fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #414042;
+    background-color: #f9fcfe;
+}
+a {
+    cursor: pointer;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+span {
+    font-size: 20px;
+}
+.task-container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+}
+.task-text {
+    border-radius: 10px;
+    background-color: #D7E1E9;
+    padding: 15px;
+}
+li {
+    margin-bottom: 7px;
+}
+ul {
+    margin-bottom: 20px;
+}
+img { 
+    max-width: 100%;
+}
+#product {
+    margin-top: 50px;
+    border: 1px solid #D7E1E9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 3px;
+}
+.product-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.product-img {
+    max-width: 180px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.product-title {
+    font-size: 17px;
+    font-weight: 500;
+}
+.product-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.product-btn {
+    border: 2px solid #272727;
+    width: 35px;
+    height: 35px;
+    font-size: 22px;
+    font-weight: 500;
+    transition: all 0.4s ease 0s;
+    border-radius: 3px;
+}
+.product-btn:disabled {
+    opacity: 0.5;
+}
+.product-btn:hover {
+    background-color: #e8eef3;
+}
+.product-val,
+.product-sum {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.product-price {
+    color: #E4514F;
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+}
