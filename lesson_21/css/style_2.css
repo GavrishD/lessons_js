@@ -1,0 +1,92 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #414042;
+    background-color: #f9fcfe;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    font-weight: 700;
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+h3 {
+    font-weight: 500;
+    text-align: center;
+    /* padding-top: 20px; */
+    margin-bottom: 10px;
+}
+span {
+    font-weight: 700;
+}
+.task-container {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+}
+.task-text {
+    border-radius: 10px;
+    background-color: #D7E1E9;
+    padding: 15px;
+}
+img {
+    max-width: 100%;
+    
+}
+
+.task-main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+li {
+    padding: 5px 8px 5px 8px;
+
+    text-align: center;
+}
+ol {
+    border-radius: 3px;
+    border: 0.5px solid #232323;
+}
+button {
+    padding: 8px 12px 8px 12px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: end;
+    cursor: pointer;
+    color: #fff;
+    background-color: #232323;
+    transition: all 0.6s ease 0s;
+    font-size: 18px;
+}
+button:hover {
+    background-color: rgb(82, 82, 82);
+}
+.odd {
+    color: #E4514F;
+    border: 1.5px solid #E4514F;
+}
+.couples {
+    color: #55AE58;
+    border: 1.5px solid #55AE58;
+}
