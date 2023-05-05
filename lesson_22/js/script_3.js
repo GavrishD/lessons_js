@@ -50,7 +50,7 @@ function confirmMonth(){
             document.getElementById('month').value = 1
         } else if(error instanceof IncorrectStudyMonth) {
             console.log(error.message + 'Введіть номер навчального місяця')
-            document.getElementById('month').value = 1
+            document.getElementById('month').value
         } else console.log(error.message)
         return false
     }
