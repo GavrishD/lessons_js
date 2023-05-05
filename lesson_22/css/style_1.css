@@ -55,11 +55,6 @@ ul {
 img { 
     max-width: 100%;
 }
-.task-hello {
-    padding-top: 20px;
-    text-align: center;
-    cursor: pointer;
-}
 .task-main {
     display: flex;
     align-items: center;
