@@ -1,0 +1,56 @@
+@import url("reset.css");
+
+/* ----------------------------------------Fonts---------------------------------------- */
+
+/* Poppins fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700&display=swap');
+
+/* ----------------------------------------General---------------------------------------- */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #1E1E1E;
+}
+p {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+h1, h2 {
+    color: #E5C243;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    transition: all 0.3s ease 0s;
+}
+h1:hover, h2:hover {
+    text-decoration: underline;
+}
+span {
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+[class*="__container"] {
+    max-width: 1030px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.task {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.task__text {}
+
+li {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(97, 97, 97, 0.5);
+    padding: 15px;
+}
